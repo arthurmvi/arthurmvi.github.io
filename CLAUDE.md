@@ -26,16 +26,16 @@ e o plugin render-markdown.nvim. Estrutura (coluna única, listas simples) segue
 
 ### Tipografia
 - Uma única fonte monospace em tudo: Noto Sans Mono, self-hosted (.woff2), só os pesos usados
-- Largura máx. do texto: 65ch
+- Largura máx. do texto: 90ch
 - Sem serifa, sem fonte display
 
 ### Paleta (hex exatos do moonfly)
 - Fundo: #080808
 - Texto: #c6c6c6
 - Texto secundário (datas, metadados): #626262
-- Headings h1/h2: texto #adadf3; h3: #79dac8
+- Headings h1/h2: texto #8cc85f (mesmo verde dos links); h3: #79dac8
 - Headings sem prefixo, ícone ou símbolo
-- h2: faixa de fundo #314940 ocupando a largura inteira do container, sem borda nem raio
+- h2: faixa de fundo #303030 ocupando a largura inteira do container, sem borda nem raio
 - Links: #8cc85f, sublinhado só no hover
 - Código inline: texto #c6c684, sem fundo
 - Blocos de código: fundo #121212, texto #c6c6c6

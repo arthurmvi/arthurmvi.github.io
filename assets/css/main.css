@@ -18,9 +18,9 @@
   --bg: #080808;
   --fg: #c6c6c6;
   --muted: #626262;
-  --h12: #adadf3;
+  --h12: #8cc85f;
   --h3: #79dac8;
-  --h2-band: #314940;
+  --h2-band: #303030;
   --link: #8cc85f;
   --code: #c6c684;
   --code-bg: #121212;
@@ -34,7 +34,7 @@ html { background: var(--bg); }
 body {
   margin: 0 auto;
   padding: 1.5rem 1rem 3rem;
-  max-width: 65ch;
+  max-width: 90ch;
   background: var(--bg);
   color: var(--fg);
   font-family: "Noto Sans Mono", monospace;
