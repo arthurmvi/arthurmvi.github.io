@@ -1,0 +1,3 @@
+{{- with .Params.tags }}
+<span class="meta">{{ range $i, $t := . }}{{ if $i }} {{ end }}<a href="{{ printf "tags/%s/" ($t | urlize) | relURL }}">#{{ $t }}</a>{{ end }}</span>
+{{- end }}

@@ -1,0 +1,24 @@
+{{ define "main" }}
+<h1>{{ site.Title }}</h1>
+{{ .Content }}
+<h2>Recent work</h2>
+{{ with site.Data.work }}
+<ul>
+{{- range sort . "date" "desc" }}
+<li>
+<a href="{{ .url }}">{{ .title }}</a>
+<span class="meta">{{ .repo }} · {{ .date }}</span><br>
+{{ .summary }}
+</li>
+{{- end }}
+</ul>
+{{ end }}
+<h2>Latest posts</h2>
+{{ $posts := where site.RegularPages "Section" "blog" }}
+<ul>
+{{- range first 5 $posts }}
+<li><span class="meta">{{ .Date.Format "2006-01-02" }}</span> <a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+{{- end }}
+</ul>
+<p><a href="{{ "blog/" | relURL }}">All posts</a></p>
+{{ end }}
