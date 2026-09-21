@@ -1,0 +1,19 @@
+# Recent work shown on the home page. Newest first is not required; the
+# template sorts by date. Replace the placeholder entries below.
+#
+# Fields:
+#   title:   PR or contribution title
+#   url:     link to the PR / commit / project
+#   date:    YYYY-MM
+#   repo:    owner/name
+#   summary: one line
+- title: "Example: fix off-by-one in pagination"
+  url: "https://github.com/owner/repo/pull/1"
+  date: "2026-09"
+  repo: "owner/repo"
+  summary: "Placeholder entry, replace with a real contribution."
+- title: "Example: add CSV export"
+  url: "https://github.com/owner/repo/pull/2"
+  date: "2026-08"
+  repo: "owner/repo"
+  summary: "Placeholder entry, replace with a real contribution."
