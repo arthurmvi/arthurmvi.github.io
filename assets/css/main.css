@@ -61,6 +61,7 @@ em, i { color: var(--emph); font-style: italic; }
 
 ul { padding-left: 2ch; list-style-type: "● "; }
 ul ul, ul ul ul { list-style-type: "○ "; }
+li > ul, li > ol { margin: 0; }
 ol { padding-left: 3ch; }
 li { padding-left: 0; }
 li::marker { color: var(--fg); }
